@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/blog/blog",
+    "pages/playlist/palylist",
+    "pages/profile/profile",
+    "pages/musiclist/musiclist",
+    "pages/player/player",
+    "pages/blog-edit/blog-edit",
+    "pages/blog-comment/blog-comment",
+    "pages/profile-playhistory/profile-playhistory",
+    "pages/profile-bloghistory/profile-bloghistory"
+
+  ],
+  "requiredBackgroundModes": [
+  "audio"
+  
+],
+
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "婧婧的云歌单",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/playlist/palylist",
+        "text": "歌单",
+        "iconPath": "images/song.png",
+        "selectedIconPath": "images/song1.png"
+      },
+      {
+        "pagePath": "pages/blog/blog",
+        "text": "博客",
+        "iconPath": "images/note.png",
+        "selectedIconPath": "images/note1.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "主页",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap94.json"
+}
